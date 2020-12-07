@@ -4,7 +4,10 @@
 	color: grey;
 	background-color: black; height: 6rem;
 	text-align: center;
-	margin: 0;
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
 	
 }
 .writing
