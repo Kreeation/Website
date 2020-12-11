@@ -17,3 +17,42 @@
 	font-family: Verdana, sans-serif;
 	
 }
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li
+{
+	display: inline;
+	
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: black;
+}
+
+.topnav a{
+	float: left;
+	color:#f2f2f2;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration:none;
+	font-size:17px;
+	
+}
+
+.topnav a:hover{
+	background-color:#ddd;
+	color:black;
+}
+.topnav a.active{
+	background-color: #ffa500;
+	color: white;
+}
+
+
