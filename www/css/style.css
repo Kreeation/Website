@@ -2,12 +2,13 @@
 {
 	font-size: 50pt;
 	color: grey;
-	background-color: black; height: 6rem;
+	background-color: black; height: 6rem; border-bottom: 4px solid orange;
 	text-align: center;
 	left: 0;
 	top: 0;
 	position: absolute;
 	width: 100%;
+	
 	
 }
 .writing
@@ -18,22 +19,11 @@
 	
 }
 
-ul
-{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-li
-{
-	display: inline;
-	
-}
 
 .topnav {
 	overflow: hidden;
 	background-color: black;
+	
 }
 
 .topnav a{
@@ -43,6 +33,7 @@ li
 	padding: 14px 16px;
 	text-decoration:none;
 	font-size:17px;
+	
 	
 }
 
