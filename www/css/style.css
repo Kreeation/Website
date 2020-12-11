@@ -23,6 +23,10 @@
 .topnav {
 	overflow: hidden;
 	background-color: black;
+	left: 0;
+	top: 100px;
+	position:absolute; 
+	width: 100%;
 	
 }
 
