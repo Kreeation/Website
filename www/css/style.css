@@ -11,19 +11,15 @@
 	
 	
 }
-.writing
+
+.topnav 
 {
-	font-size: 12pt;
-	color: black;
-	font-family: Verdana, sans-serif;
-	
-}
-
-
-.topnav {
 	overflow: hidden;
 	background-color: black;
-	
+	position: absolute;
+	left: 0;
+	width: 100%;
+	border-bottom: solid 4px orange;
 }
 
 .topnav a{
@@ -44,4 +40,17 @@
 	color: white;
 }
 
+h1 {
+	font-family:Verdana;
+	font-size: 20;
+	color: orange;
+}
 
+#aboutme{
+	font-size:16px;
+	font-family: Verdana;
+	width: 500px;
+	padding: 20px;
+	margin: none;
+
+}
