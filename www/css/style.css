@@ -11,7 +11,6 @@
 	
 	
 }
-
 .topnav 
 {
 	overflow: hidden;
@@ -55,10 +54,7 @@ h1 {
 
 }
 
-img{
-	display: block;
-	width: 300px;
-}
+
 
 #homepage
 {
@@ -95,10 +91,12 @@ img{
 .fa {
 	padding: 20px;
 	font-size: 30px;
-	width: 30px;
+	width: 40px;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
+	margin: 30px;
+
 }
 
 .fa:hover {
@@ -115,5 +113,5 @@ img{
 }
 .fa-youtube {
 	background: #bb0000;
-  color: white;
+	color: white;
 }
