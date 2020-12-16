@@ -43,9 +43,15 @@ h1 {
 	font-family:Verdana;
 	font-size: 20;
 	color: orange;
+	padding-left: 20px;
+}
+h2 {
+	font-family:Verdana;
+	font-size: 20;
+	color: orange;
 }
 
-#aboutme{
+.aboutme{
 	font-size:16px;
 	font-family: Verdana;
 	width: 500px;
@@ -64,7 +70,7 @@ h1 {
 	padding: 20px;
 	margin: none;
 }
-#games
+.games
 {
 	font-size:16px;
 	font-family: Verdana;
