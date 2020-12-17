@@ -4,6 +4,7 @@
 <meta charset="utf-8"/>
 <title>Kerem Arslan's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="www/css/style.css"/>
+	
 	<style>
 		body
 		{
@@ -48,12 +49,58 @@
 		src="https://www.youtube.com/embed/wRRGVbbYvJM">
 		
 		</iframe>
-		<h2> My Fist Game</h2>
+		<h2> My First Game</h2>
 		<div class="games">
 			<p> This video is a run through of the first solo project that I created in Construct2 back in college. Its was a very rough
 			project but helped me to learn the basics of animation keyframes and some basics of the Construct Engine.
 			</p>
-			</div>
+		</div>
+		<h1>Concept art</h1>
+		<div class="games">
+		<p> this is a small collection of some of my old character design work  done back in college.</p>
+		</div>
+		<div id="slideshow">
+			<script>
+			var i = 0;
+			var images = [];
+			var time = 2000;
+		
+			//image list
+			images [0] = 'www/images/img01.jpg';
+			images [1] = 'www/images/img02.jpg';
+			images [2] = 'www/images/img03.jpg';
+			images [3] = 'www/images/img04.jpg';
+			images [4] = 'www/images/img05.jpg';
+			
+			//change image
+			function changeImg(){
+				document.slide.src = images[i];
+				if(i < images.length - 1)
+				{
+						i++;
+					}else {
+					i = 0;
+			}
+			
+			setTimeout("changeImg()", time);
+			}
+			window.onload = changeImg;
+			
+		</script>
+		</div>
+		
+		<img name="slide" width="800" height="400" />
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<br>
 		<br>
 		<br>

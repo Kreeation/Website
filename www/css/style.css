@@ -49,6 +49,7 @@ h2 {
 	font-family:Verdana;
 	font-size: 20;
 	color: orange;
+	padding-left: 20px;
 }
 
 .aboutme{
@@ -121,3 +122,14 @@ h2 {
 	background: #bb0000;
 	color: white;
 }
+
+#slideshow {
+	margin: 80px auto;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	float: right;
+	
+}
+
